@@ -39,7 +39,7 @@ const Profile = () => {
         <div className='profile container_shadow'>
             <div className='profile_name'>
                 <Typography className='name'>{resume.name}</Typography>
-                <Typography className='title'>{resume.title}</Typography>
+                <Typography className='title'>{resume.position}</Typography>
             </div>
 
             <figure className='profile_image'>
@@ -49,7 +49,7 @@ const Profile = () => {
             <div className='profile_information'>
                 <CustomTimeline icon={<PersonOutlineOutlinedIcon />}>
                     <CustomTimelineItem title='Name' text={resume.name} />
-                    <CustomTimelineItem title='Title' text={resume.title} />
+                    <CustomTimelineItem title='Position' text={resume.position} />
                     <CustomTimelineItem title='Email' text={resume.email} />
 
                     {Object.keys(resume.socials).map((key) => (

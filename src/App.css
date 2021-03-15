@@ -10,6 +10,10 @@
     margin-top: 30px !important;
 }
 
+.mb_20 {
+    margin-bottom: 20px !important;
+}
+
 .mb_30 {
     margin-bottom: 30px !important;
 }
@@ -46,7 +50,7 @@
 
 .main-content {
     background-color: white;
-    min-height: 100vh;
+    /* min-height: 10vh; */
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;

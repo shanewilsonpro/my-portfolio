@@ -25,20 +25,25 @@ const Header = (props) => {
             <Navbar.Collapse>
                 <Nav className='header_left'>
                     {/* Resume link */}
-                    <Nav.Link as={NavLink} to='/' className={pathName === '/' ? "header_link_active" : "header_link"}>
-                        Resume
+                    <Nav.Link as={NavLink} to='/resume' className={pathName === '/resume' ? "header_link_active" : "header_link"}>
+                        RESUME
                     </Nav.Link>
 
                     {/* Portfolio link */}
                     <Nav.Link as={NavLink} to='/portfolio' className={pathName === '/portfolio' ? "header_link_active" : "header_link"}>
-                        Portfolio
+                        PORTFOLIO
+                    </Nav.Link>
+
+                    {/* Contact link */}
+                    <Nav.Link as={NavLink} to='/contact' className={pathName === '/contact' ? "header_link_active" : "header_link"}>
+                        CONTACT
                     </Nav.Link>
 
                 </Nav>
 
                 <div className="header_right">
                     {Object.keys(resume.socials).map((key) => (
-                        <a href={resume.socials[key].link} target="_blank">
+                        <a href={resume.socials[key].link} target="_blank" className='header_right_icon'>
                             {resume.socials[key].icon}
                         </a>
                     ))}

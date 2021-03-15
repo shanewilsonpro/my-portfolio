@@ -11,7 +11,7 @@
 }
 
 .header .header_link {
-    font-weight: 500;
+    font-weight: bolder;
     color: darkslategray !important;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .header .header_link_active {
-    font-weight: 500;
+    font-weight: bolder;
     color: var(--main-color) !important;
 }
 
@@ -32,6 +32,10 @@
     align-items: center;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
+}
+
+.header .header_home:hover {
+    background-color: rgba(49, 166, 202, 0.856);
 }
 
 .header .header_left {
@@ -47,4 +51,8 @@
     font-size: 16px !important;
     margin-right: 12px;
     color: black;
+}
+
+.header .header_right .header_right_icon :hover {
+    color: var(--main-color);
 }
