@@ -13,6 +13,8 @@ import Footer from "./components/Footer/Footer.components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./pages/Contact/Contact.pages";
 
+require('dotenv').config()
+
 function App() {
   return (
     <Container className={'top_60'}>

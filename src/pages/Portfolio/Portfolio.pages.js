@@ -105,14 +105,13 @@ const Portfolio = () => {
         open={projectDialog}
         onClose={() => setProjectDialog(false)}
         maxWidth={"lg"}
-        fullWidth
         className="projectDialog"
       >
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
         <img src={projectDialog.image} alt='' className="projectDialog_image" />
-        <DialogContent style={{ height: '40vh' }}>
+        <DialogContent style={{ height: '25vh' }}>
           <Typography className="projectDialog_description">
             {projectDialog.description}
           </Typography>
@@ -122,6 +121,7 @@ const Portfolio = () => {
             <a
               href={link.link}
               target="_blank"
+              rel='noreferrer'
               className="projectDialog_icon"
             >
               {link.icon}

@@ -1,10 +1,15 @@
 /* Timeline section */
 .resume_timeline .timeline_content .timeline_title {
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 550 !important;
 }
 
-.resume_timeline .timeline_content .timeline_data {
+.resume_timeline .timeline_content .timeline_degree {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.resume_timeline .timeline_content .timeline_date {
     color: darkslategray;
 }
 

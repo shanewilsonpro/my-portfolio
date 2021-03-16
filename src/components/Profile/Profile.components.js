@@ -21,7 +21,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
             {link ? (
                 <Typography className="timelineItem_text">
                     <span>{title}:</span>{" "}
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel='noreferrer'>
                         {text}
                     </a>
                 </Typography>
@@ -49,6 +49,7 @@ const Profile = () => {
             <div className='profile_information'>
                 <CustomTimeline icon={<PersonOutlineOutlinedIcon />}>
                     <CustomTimelineItem title='Name' text={resume.name} />
+                    <CustomTimelineItem title='Age' text={resume.age} />
                     <CustomTimelineItem title='Position' text={resume.position} />
                     <CustomTimelineItem title='Email' text={resume.email} />
 
@@ -58,7 +59,7 @@ const Profile = () => {
                 </CustomTimeline>
 
                 <div className="button_container">
-                    <CustomButton text={'Resume'} icon={<GetAppIcon />} />
+                    <CustomButton text={'Resume'} icon={<GetAppIcon />} image={Image} />
                 </div>
             </div>
         </div>

@@ -46,7 +46,6 @@
 .timelineItem_text {
     font-size: 13.5px !important;
     color: #787878 !important;
-    font-weight: 400 !important;
 }
 
 .timelineItem_text > a {
@@ -56,6 +55,7 @@
 
 .timelineItem_text > span {
     color: black;
+    font-weight: bold !important;
 }
 
 /* Custom button  */

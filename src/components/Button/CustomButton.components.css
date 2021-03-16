@@ -10,10 +10,6 @@
     outline: none !important;
 }
 
-/* .custom_btn :hover {
-    color: rgba(49, 166, 202, 0.856);
-} */
-
 .custom_btn .btn_icon_container {
     color: #000 !important;
     background: #fff !important;

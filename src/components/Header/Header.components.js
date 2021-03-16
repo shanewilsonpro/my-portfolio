@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HomeRounded, SchoolRounded, WorkRounded, LinkedIn, GitHub, Telegram } from "@material-ui/icons";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { HomeRounded, Telegram } from "@material-ui/icons";
+import { NavLink, withRouter } from "react-router-dom";
 import resume from "../../utils/resume";
 import CustomButton from "../Button/CustomButton.components.js";
 
@@ -43,11 +43,11 @@ const Header = (props) => {
 
                 <div className="header_right">
                     {Object.keys(resume.socials).map((key) => (
-                        <a href={resume.socials[key].link} target="_blank" className='header_right_icon'>
+                        <a href={resume.socials[key].link} target="_blank" rel='noreferrer' className='header_right_icon'>
                             {resume.socials[key].icon}
                         </a>
                     ))}
-                    <CustomButton text={"Hire Me"} icon={<Telegram />} />
+                    <CustomButton text={"Hire Me"} email={"shanewilsonpro@gmail.com"} icon={<Telegram />} />
                 </div>
             </Navbar.Collapse>
         </Navbar>

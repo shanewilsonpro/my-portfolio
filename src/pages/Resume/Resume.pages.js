@@ -59,7 +59,10 @@ const Resume = () => {
                       <Typography className="timeline_title">
                         {education.title}
                       </Typography>
-                      <Typography variant="caption" className="timeline_data">
+                      <Typography className="timeline_degree">
+                        {education.degree}
+                      </Typography>
+                      <Typography variant="caption" className="timeline_date">
                         {education.date}
                       </Typography>
                       <Typography
