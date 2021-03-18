@@ -33,7 +33,9 @@ export default {
     "problems. I mainly choose to code in Python (by far my strongest language). I am proficient with " + 
     "C++ and JavaScript languages.\n\nWhen I am in free time, the things I do in my hobbies are playing " + 
     "basketball and video games. Also I love to check out new technology things like new framework or " + 
-    "new programming language and eager to learn them.",
+    "new programming language and eager to learn them.\n\nThere is a quote that inspires me the most in the " + 
+    "programming career which says \"If you can write Hello World, You can change the world.\" So it is time " + 
+    "to change the world.",
 
   experiences: [
     {
