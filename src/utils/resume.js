@@ -6,10 +6,10 @@ import WebsiteIcon from "@material-ui/icons/Language";
 
 export default {
   name: "Shane Wilson",
-  position: "Software Developer",
+  position: "Full-Stack Software Engineer",
   age: "26",
   email: "shanewilsonpro@gmail.com",
-  phone: "714-423-8058 (text only)",
+  phone: "(714) 409-3933",
   address: "Anaheim, California",
 
   socials: {
@@ -26,7 +26,14 @@ export default {
   },
 
   about:
-    "Hello! My name is Shane and I am currently senior at the California State University, Fullerton studying Computer Science. The things I enjoy about programming that building cool apps and solving complex algorithmic problems. I mainly choose to code in Python (by far my strongest language). C++ and JavaScript are my secondary languages.",
+    "Hello! My name is Shane and I am currently senior at the California State University, " + 
+    "Fullerton studying Computer Science. I will be graduating in May 2021 to receive B.S. in " + 
+    "Computer Science degree. My passion is to build simple and beautiful apps for user experiences. " + 
+    "The things I enjoy about programming that building cool apps and solving complex algorithmic " + 
+    "problems. I mainly choose to code in Python (by far my strongest language). I am proficient with " + 
+    "C++ and JavaScript languages.\n\nWhen I am in free time, the things I do in my hobbies are playing " + 
+    "basketball and video games. Also I love to check out new technology things like new framework or " + 
+    "new programming language and eager to learn them.",
 
   experiences: [
     {
@@ -90,7 +97,7 @@ export default {
     {
       tag: "React-Native",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/k9Hdc6S/bookworm.png",
       title: "Bookworm App",
       caption:
         "The users can upload the book, read the book and mark it as read",
@@ -106,7 +113,7 @@ export default {
     {
       tag: "React",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/qmpMTY2/hawkyclothing.png",
       title: "Hawky Clothing",
       caption: "E-commerce website for clothing",
       description:
@@ -122,7 +129,7 @@ export default {
     {
       tag: "HTML/CSS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/587FyRw/onlienotes.png",
       title: "Online Notes",
       caption: "The users to store their notes online",
       description:
@@ -141,7 +148,7 @@ export default {
     {
       tag: "NodeJS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/YZ7RqhG/onlinefileexplorer.png",
       title: "Online File Explorer App",
       caption: "Online file explorer app is using pure Node.js",
       description:
@@ -160,7 +167,7 @@ export default {
     {
       tag: "HTML/CSS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/6NK2xS3/drawing.png",
       title: "Drawing App",
       caption: "A simple drawing app on website for the user can draw",
       description:
@@ -179,7 +186,7 @@ export default {
     {
       tag: "HTML/CSS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/LJBc6fX/Companywebsite.png",
       title: "Company Website",
       caption: "Company website using HTML/CSS and Bootstrap",
       description:
@@ -198,7 +205,7 @@ export default {
     {
       tag: "HTML/CSS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/dpqczsb/Applanding.png",
       title: "App Landing Website",
       caption:
         "The app landing in website to display the new app and what it does",
@@ -218,7 +225,7 @@ export default {
     {
       tag: "HTML/CSS",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/wcCmCbx/Fruitsslicegame.png",
       title: "Fruits Slice Game",
       caption:
         "In the game, the user have to slice the fruits quickly and earn the score",
@@ -238,7 +245,7 @@ export default {
     {
       tag: "Python",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/V9TP58k/Alieninvasiongame.png",
       title: "Alien Invasion Game",
       caption: "Alien Invasion game using Python and IntelliJ in IDE",
       description:
@@ -253,7 +260,7 @@ export default {
     {
       tag: "Python",
       image:
-        "https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg",
+        "https://i.ibb.co/5rrzxtz/Blackjackgame.png",
       title: "Blackjack Game",
       caption: "Blackjack game using pure Python.",
       description: "This is simple game I created for Blackjack using Python.",

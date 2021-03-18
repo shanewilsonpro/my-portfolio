@@ -104,14 +104,14 @@ const Portfolio = () => {
       <Dialog
         open={projectDialog}
         onClose={() => setProjectDialog(false)}
-        maxWidth={"lg"}
+        maxWidth={"md"}
         className="projectDialog"
       >
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
         <img src={projectDialog.image} alt='' className="projectDialog_image" />
-        <DialogContent style={{ height: '25vh' }}>
+        <DialogContent >
           <Typography className="projectDialog_description">
             {projectDialog.description}
           </Typography>

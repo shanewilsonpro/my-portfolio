@@ -11,6 +11,7 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const { register, handleSubmit, reset } = useForm();
 
+
   const onSubmit = async (data) => {
     // Send form email
     try {
@@ -34,7 +35,7 @@ const Contact = () => {
     }
   };
 
-  return (
+  return ( 
     <>
       {/* Contact */}
       <Grid container className="section pb_45">
@@ -57,9 +58,7 @@ const Contact = () => {
                     <TextField
                       fullWidth
                       name="name"
-                      inputRef={register({
-                        required: { value: true },
-                      })}
+                      inputRef={register}
                       label="Name"
                     />
                   </Grid>
@@ -79,9 +78,7 @@ const Contact = () => {
                       fullWidth
                       name="message"
                       label="Message"
-                      inputRef={register({
-                        required: true,
-                      })}
+                      inputRef={register}
                       multiline
                       rows={4}
                     />
@@ -126,8 +123,12 @@ const Contact = () => {
             <Grid item xs={12}>
               <Grid container className="contactInfo_socialsContainer">
                 {Object.keys(resume.socials).map((key) => (
-                  <Grid item className="contactInfo_social">
-                    <a href={resume.socials[key].link}>
+                  <Grid item key={key} className="contactInfo_social">
+                    <a
+                      href={resume.socials[key].link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       {resume.socials[key].icon}
                     </a>
                   </Grid>

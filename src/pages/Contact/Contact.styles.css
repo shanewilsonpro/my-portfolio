@@ -19,3 +19,7 @@
     margin-right: 10px;
     color: black;
 }
+
+.contactInfo_socialsContainer :hover {
+    color: var(--main-color) !important;
+}
