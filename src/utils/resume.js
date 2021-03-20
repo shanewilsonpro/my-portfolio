@@ -29,9 +29,9 @@ export default {
     "Hello! My name is Shane and I am currently senior at the California State University, " + 
     "Fullerton studying Computer Science. I will be graduating in May 2021 to receive B.S. in " + 
     "Computer Science degree. My passion is to build simple and beautiful apps for user experiences. " + 
-    "The things I enjoy about programming that building cool apps and solving complex algorithmic " + 
-    "problems. I mainly choose to code in Python (by far my strongest language). I am proficient with " + 
-    "C++ and JavaScript languages.\n\nWhen I am in free time, the things I do in my hobbies are playing " + 
+    "I enjoy creating innovative apps that improve quality of life and productivity. " + 
+    "I mainly choose to code in Python (by far my strongest language). I am proficient with " + 
+    "C++ and JavaScript languages. When I am away from computer, I enjoy playing " + 
     "basketball and video games. Also I love to check out new technology things like new framework or " + 
     "new programming language and eager to learn them.\n\nThere is a quote that inspires me the most in the " + 
     "programming career which says \"If you can write Hello World, You can change the world.\" So it is time " + 
@@ -57,7 +57,7 @@ export default {
       title: "California State University, Fullerton",
       degree: "B.S. in Computer Science",
       date: "Jan 2018 - Present",
-      description: "Fullerton,CA. Graduating in May 2021",
+      description: "Fullerton, CA. Graduation in May 2021",
     },
     {
       title: "Fullerton Community College",
@@ -66,7 +66,7 @@ export default {
       description: "Fullerton, CA",
     },
     {
-      title: "University High school",
+      title: "University High School",
       date: "2009 - 2013",
       description: "Irvine, CA",
     },
@@ -74,24 +74,20 @@ export default {
 
   skills: [
     {
-      title: "Program Languages",
-      description: ["Python", , "C++", "JavaScript", "Dart"],
+      title: "Languages",
+      description: ["Python (Proficient)", , "C++ (Proficient)", "JavaScript (Proficient)", "Dart (Familiar)", "HTML/CSS (Familiar)"],
     },
     {
-      title: "Front-end",
-      description: ["ReactJS", "Bootstrap", "HTML/CSS", "Flutter"],
+      title: "Frameworks",
+      description: ["ReactJS", "Bootstrap", "Flutter", "NodeJS", "React Native", "Angular"],
     },
     {
-      title: "Back-end",
-      description: ["NodeJS"],
+      title: "Tools",
+      description: ["Firebase", "MySQL", "MongoDB", "Git", "GitHub", "GraphQL"],
     },
     {
-      title: "Databases",
-      description: ["Firebase", "MySQL", "MongoDB"],
-    },
-    {
-      title: "Source Control",
-      description: ["Git", "GitHub", "Scrum/Agile"],
+      title: "Design",
+      description: ["Adobe XD", "Figma"],
     },
   ],
 
