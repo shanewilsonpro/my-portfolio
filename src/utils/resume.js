@@ -75,7 +75,7 @@ export default {
   skills: [
     {
       title: "Languages",
-      description: ["Python (Proficient)", , "C++ (Proficient)", "JavaScript (Proficient)", "Dart (Familiar)", "HTML/CSS (Familiar)"],
+      description: ["Python (Proficient)", , "C++ (Proficient)", "JavaScript (Familiar)", "Dart (Familiar)", "HTML/CSS (Familiar)"],
     },
     {
       title: "Frameworks",
