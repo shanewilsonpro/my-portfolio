@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HomeRounded, Telegram } from "@material-ui/icons";
-import { NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter, Link } from "react-router-dom";
 import resume from "../../utils/resume";
 import CustomButton from "../Button/CustomButton.components.js";
 
@@ -57,7 +57,7 @@ const Header = (props) => {
             CONTACT
           </Nav.Link>
         </Nav>
-        
+
         <div className="header_right">
           {Object.keys(resume.socials).map((key) => (
             <a
@@ -70,11 +70,14 @@ const Header = (props) => {
               {resume.socials[key].icon}
             </a>
           ))}
-          <CustomButton
-            text={"Hire Me"}
-            email={"shanewilsonpro@gmail.com"}
-            icon={<Telegram />}
-          />
+
+          <Link to="/contact">
+            <CustomButton
+              text={"Hire Me"}
+              email={"shanewilsonpro@gmail.com"}
+              icon={<Telegram />}
+            />
+          </Link>
         </div>
       </Navbar.Collapse>
     </Navbar>

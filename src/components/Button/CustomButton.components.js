@@ -3,14 +3,14 @@ import { Button } from "@material-ui/core";
 
 import "./CustomButton.components.css";
 
-const CustomButton = ({ text, icon, file, email }) => {
+const CustomButton = ({ text, icon, file, onClick }) => {
   return (
     <a href={file} download="shane-wilson-resume.pdf">
       <Button
         className="custom_btn"
         variant="contained"
         type="submit"
-        href={email ? `mailto:${email}` : null}
+        onClick={onClick}
         endIcon={icon ? <div className="btn_icon_container">{icon}</div> : null}
       >
         <span className="btn_text">{text}</span>

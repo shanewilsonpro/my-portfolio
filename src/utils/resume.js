@@ -7,7 +7,7 @@ import WebsiteIcon from "@material-ui/icons/Language";
 export default {
   name: "Shane Wilson",
   position: "Full-Stack Software Engineer",
-  age: "26",
+  age: "27",
   email: "shanewilsonpro@gmail.com",
   phone: "(714) 409-3933",
   address: "Anaheim, California",
@@ -26,16 +26,19 @@ export default {
   },
 
   about:
-    "Hello! My name is Shane and I am currently senior at the California State University, " + 
-    "Fullerton studying Computer Science. I will be graduating in May 2021 to receive B.S. in " + 
-    "Computer Science degree. My passion is to build simple and beautiful apps for user experiences. " + 
-    "I enjoy creating innovative apps that improve quality of life and productivity. " + 
-    "I mainly choose to code in Python (by far my strongest language). I am proficient with " + 
-    "C++ and JavaScript languages. When I am away from computer, I enjoy playing " + 
-    "basketball and video games. Also I love to check out new technology things like new framework or " + 
-    "new programming language and eager to learn them.\n\nThere is a quote that inspires me the most in the " + 
-    "programming career which says \"If you can write Hello World, You can change the world.\" So it is time " + 
-    "to change the world.",
+    "I'm currently looking for the roles to apply for any position in Software " +
+    "Engineer/Developer. I received a Bachelor of Science degree in Computer Science " +
+    "at the California State University, Fullerton in 2021. I have some knowledge of " + 
+    "programming languages Javascript, Python, and C++. I'm still learning more languages " +
+    "as I continue to look for a job. I have strong organizational skills and time management. " +
+    "However, I'm constantly improving more aspects of myself at my current work. I work as " +
+    "self-employed for UberEats, DoorDash, and Instacart to support my bills, but I have more of " +
+    "a passion for computers mainly in development.\n\n" +
+
+    "I've attempted many hackathon events to work with my friends and new people as a team for " +
+    "projects which has helped me refine my skills in programming and teamwork. I'm always willing " +
+    "to learn even more about new things. In my free time, I like to develop my personal projects, " +
+    "play video games, and explore new adventures.",
 
   experiences: [
     {
@@ -56,8 +59,8 @@ export default {
     {
       title: "California State University, Fullerton",
       degree: "B.S. in Computer Science",
-      date: "Jan 2018 - Present",
-      description: "Fullerton, CA. Graduation in May 2021",
+      date: "Jan 2018 - May 2021",
+      description: "Fullerton, CA.",
     },
     {
       title: "Fullerton Community College",
