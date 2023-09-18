@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="footer_right">
         <Typography className="footer_copyright">
-          &copy; 2022 All rights reserved. Developed by{" "}
+          &copy; 2023 All rights reserved. Developed by{" "}
           <a href="/" target="_blank">
             Shane Wilson
           </a>

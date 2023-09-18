@@ -6,11 +6,11 @@ import WebsiteIcon from "@material-ui/icons/Language";
 
 export default {
   name: "Shane Wilson",
-  position: "Full-Stack Software Engineer",
-  age: "27",
+  position: "Software Engineer/Developer",
+  age: "28",
   email: "shanewilsonpro@gmail.com",
   phone: "(714) 409-3933",
-  address: "Anaheim, California",
+  address: "Northridge, California",
 
   socials: {
     LinkedIn: {
@@ -42,7 +42,7 @@ export default {
 
   experiences: [
     {
-      title: "UberEats/DoorDash/Postmates - Delivery Driver",
+      title: "UberEats/DoorDash - Delivery Driver",
       date: "2018 - Present",
       description:
         "Completed on-time deliveries by choosing the best and most efficient routes. Actively communicated with customers and merchants. Efficiently solved administrative issues between customers, merchants, and company.",
@@ -78,7 +78,7 @@ export default {
   skills: [
     {
       title: "Languages",
-      description: ["Python (Proficient)", , "C++ (Proficient)", "JavaScript (Familiar)", "Dart (Familiar)", "HTML/CSS (Familiar)"],
+      description: ["Python (Proficient)", , "JavaScript (Proficient)", "HTML/CSS (Proficient)", "C++ (Familiar)", "Dart (Familiar)"],
     },
     {
       title: "Frameworks",
